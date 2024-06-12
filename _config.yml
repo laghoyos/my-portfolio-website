@@ -63,7 +63,7 @@ author:
   bio    : "Remote Sensing and Geoespatial Sciences"
   links:
     - label: "Linkedin"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/luis-angel-guerrero-hoyos-b3166912a/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -72,7 +72,7 @@ author:
 footer:
   links:
     - label: "Linkedin"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/luis-angel-guerrero-hoyos-b3166912a/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
