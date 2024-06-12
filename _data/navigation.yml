@@ -1,9 +1,9 @@
 main:
   - title: "Projects"
-    url: /posts/
+    url: /projects/
   - title: "Experience"
-    url: /categories/
+    url: /experience/
   - title: "Education"
-    url: /tags/
+    url: /education/
   - title: "About"
     url: /about/
