@@ -1,7 +1,7 @@
 main:
-  - title: "projects"
+  - title: "Projects"
     url: /posts/
-  - title: "Experiences"
+  - title: "Experience"
     url: /categories/
   - title: "Education"
     url: /tags/
