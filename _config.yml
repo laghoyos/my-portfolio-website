@@ -61,7 +61,8 @@ plugins:
 author:
   name   : "Luis Angel GH"
   avatar : "/assets/images/photo.jpg"
-  bio    : "Remote Sensing | Geoespatial Data | Data Analysis | Geotechnical Engineering |"
+  bio    : "Remote Sensing \| Geoespatial Data \| 
+            Data Analysis  \| Geotechnical Engineering \|"
   links:
     - label: "Seattle, US"
       icon: "fas fa-map-marker-alt"
