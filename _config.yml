@@ -60,8 +60,8 @@ plugins:
 
 author:
   name   : "Luis Angel GH"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Remote Sensing and Geoespatial Sciences"
+  avatar : "/assets/images/photo.jpg"
+  bio    : "Remote Sensing | Geoespatial Data | Data Analysis | Geotechnical Engineering |"
   links:
     - label: "Seattle, US"
       icon: "fas fa-map-marker-alt"
@@ -75,9 +75,6 @@ author:
 
 footer:
   links:
-    - label: "Seattle, US"
-      icon: "fas fa-map-marker-alt"
-      url: "https://maps.app.goo.gl/yJFaQ3bCQd9jze53A"
     - label: "Linkedin"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/luis-angel-guerrero-hoyos-b3166912a/"
