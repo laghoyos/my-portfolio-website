@@ -28,10 +28,27 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
-  
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -58,6 +75,9 @@ author:
 
 footer:
   links:
+    - label: "Seattle, US"
+      icon: "fas fa-map-marker-alt"
+      url: "https://maps.app.goo.gl/yJFaQ3bCQd9jze53A"
     - label: "Linkedin"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/luis-angel-guerrero-hoyos-b3166912a/"
@@ -66,6 +86,17 @@ footer:
       url: "https://github.com/laghoyos"
 
 defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # _pages
   - scope:
       path: "_pages"
@@ -73,3 +104,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+# category_archive:
+#   type: liquid
+#   path: /categories/
+# tag_archive:
+#   type: liquid
+#   path: /tags/
